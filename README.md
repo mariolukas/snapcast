@@ -147,7 +147,7 @@ For a webinterface in python, see [snapcastr](https://github.com/xkonni/snapcast
 
 Another webinterface running on any device, see [snapcast-websockets-ui](https://github.com/derglaus/snapcast-websockets-ui), running entirely in the browser, needs [websockify](https://github.com/novnc/websockify). No configuration needed, features almost all functions, still needs some tuning for the optics.
 
-A webinterface called [HydraPlay](https://github.com/mariolukas/HydraPlay) which integrates Snapcast and multiple Mopidy instances. It is JavaScript based and uses Angular 7. A Snapcast websocket proxy server is needed to connect Snapcast to HydraPlay over web sockets.
+A webinterface called [HydraPlay](https://github.com/mariolukas/HydraPlay) which integrates Snapcast and multiple Mopidy instances. It is JavaScript based and uses Angular 7. HydraPlay can be delivered by Snapcasts integrated http server. It also uses Snapcasts WebSocket interface.
 
 Setup of audio players/server
 -----------------------------
